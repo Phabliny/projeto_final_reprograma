@@ -14,9 +14,9 @@ const jovens = require("./routes/jovensRoute")
 const apoiadores = require("./routes/apoiadoresRoute")
 const instituicao = require("./routes/instituicoesRoutes")
 
-app.use("/adote", jovens)
-app.use("/apoie", apoiadores)
-app.use("/instituicao", instituicao)
+app.use("/", jovens)
+app.use("/", apoiadores)
+app.use("/", instituicao)
 
 
 module.exports = app

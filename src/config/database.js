@@ -1,9 +1,4 @@
 const mongoose = require("mongoose")
-const express = require('express')
-const bodyParser = require('body-parser')
-const dotenv = require('dotenv')
-
-dotenv.config()
 
 const MONGO_URI = process.env.MONGO_URI
 
@@ -14,9 +9,8 @@ const connect = () => {
     useCreateIndex: true,
     useUnifiedTopology: true
     })
-    const connection = mongoose.connection
-    connection.on("error", () => console.log("Erro ao conectar com o MongoDB!"))
-    connection.once("open", () => console.log("Estamos conectadas!"))
+    .then(() => console.log("Estamos conectadas!"))
+    .catch((err) => console.log(err))
 }
 
 module.exports = {connect}
