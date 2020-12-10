@@ -7,24 +7,40 @@ const instituicoesSchema = new Schema ({
         type:mongoose.Schema.Types.ObjectId,
         auto: true,
         required: true
-    },
+    }, 
     nome: {
         type: String,
         required: true
     }, 
+    email: {
+        type: String,
+        unique: true,
+        required: true,
+        lowercase: true
+    }, 
+    senha: {
+        type: String, 
+        required: true,
+        select: false
+    }, 
+    createAt: {
+        type: String,
+        default: Date.now
+    }, 
     endereco: {
         type: String, 
-        required: true
-    },
+        required: false
+    }, 
     telefone: {
         type: Number,
-        required: true
+        required: false
     },
     jovens: {
-        type: Array,
-        required: true
-    }
-})
+        type: Schema.Types.ObjectId, 
+        ref: "JovensSchema",
+        required: false
+    } 
+}, { timestamps: true})
 
 const instituicoesCollection = mongoose.model('instituicoes', instituicoesSchema)
 

@@ -20,10 +20,6 @@ const jovensSchema = new Schema({
         type: String, enum: ["Feminino", "Maculino", "Não binário"],
         require: true
     },
-    id_instituicao: { //Arrumar um jeito de jogar o ID da instituição aqui 
-        type: String,
-        required: false
-    }, 
     nivelFormacao:{
         type: String,
         required: true
@@ -36,7 +32,7 @@ const jovensSchema = new Schema({
         type: String,
         requires: false
     }
-})
+}, { timestamps: true})
 
 const jovensCollection = mongoose.model("jovens", jovensSchema)
 

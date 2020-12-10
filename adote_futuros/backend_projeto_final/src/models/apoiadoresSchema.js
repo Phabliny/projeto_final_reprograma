@@ -32,7 +32,7 @@ const apoiadoresSchema = new Schema ({
         type: Number,
         required: true
     }
-})
+}, { timestamps: true})
 
 const apoiadoresCollection = mongoose.model('apoiadores', apoiadoresSchema)
 
