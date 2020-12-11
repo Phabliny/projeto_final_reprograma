@@ -12,42 +12,42 @@ Entre os jovens que estão no sistema de adoção, quanto mais velhos ficam meno
 ### Tecnologias ###
 As tecnologias utilizadas para as o desenvolvimento desse projeto foram:
 
--JavaScript
--Node.js
--MongoDb
--Express
--Nodemon
--Mongoose
--dotenv
--Git/Github
--heroku
+- JavaScript
+- Node.js
+- MongoDb
+- Express
+- Nodemon
+- Mongoose
+- dotenv
+- Git/Github
+- heroku
 
 ### Aprendizados ###
 Durante todo o bootcamp da Reprograma fizemos diversas aulas e práticas que nos ajudaram a entender como desenvolver API's desse modelo. Nesta API eu utilizei as operações CRUD (Create Read, Update e Delete), sendo o banco de dados utilizado o MongoDB. Além disso, o código foi escrito seguindo a arquitetura MVC (Model View Controller).
 
 ### Rotas dos Apoiadores ###
--[X] "/apoiadores" Retorna todos os apoiadores cadastrados.
--[X] "cadastro_apoiador" Cria novo cadastro e retorna mensagem amigável.
--[X] "/encontrar_apoiador" Retorna o apoiador -com o nome espécifico.
--[X] "/deletar_apoiador/[ID]" Deleta o apoiador por id específico e retorna mensagem amigável.
--[X] "/atualizar_apoiador/[ID]" Atualiza os dados do apoiador por id específico e retorna mensagem amigável.
+- [X] "/apoiadores" Retorna todos os apoiadores cadastrados.
+- [X] "cadastro_apoiador" Cria novo cadastro e retorna mensagem amigável.
+- [X] "/encontrar_apoiador" Retorna o apoiador com o nome espécifico.
+- [X] "/deletar_apoiador/[ID]" Deleta o apoiador por id específico e retorna mensagem amigável.
+- [X] "/atualizar_apoiador/[ID]" Atualiza os dados do apoiador por id específico e retorna mensagem amigável.
 
 ### Rotas das Instituições ###
--[X] "/instituicoes" Retorna todas as instituições cadastradas.
--[X] "/cadastro_instituicao" Cria novo cadastro e retorna mensagem amigável.
+- [X] "/instituicoes" Retorna todas as instituições cadastradas.
+- [X] "/cadastro_instituicao" Cria novo cadastro e retorna mensagem amigável.
 -[X] "/encontrar_instituicao" Retorna a instituição com o nome espécifico.
--[X] "/deletar_instituicao/[ID]" Deleta a instituição por id específico e retorna mensagem amigável.
--[X] "/atualizar_instituicao/[ID]" Atualiza os dados da instituição por id específico e retorna mensagem amigável.
+- [X] "/deletar_instituicao/[ID]" Deleta a instituição por id específico e retorna mensagem amigável.
+- [X] "/atualizar_instituicao/[ID]" Atualiza os dados da instituição por id específico e retorna mensagem amigável.
 
 ### Rotas das Instituições ###
--[X] "/jovens" Retorna todos os jovens cadastrados.
--[X] "/cadastro_jovem" Cria novo cadastro e retorna mensagem amigável.
--[X] "/encontrar_jovem" Retorna o jovem com o nome espécifico.
--[X] "/deletar_jovem/[ID]" Deleta o jovem por id específico e retorna mensagem amigável.
--[X] "/atualizar/nome/[ID]" Atualiza os dados do jovem por id específico e retorna mensagem amigável.
+- [X] "/jovens" Retorna todos os jovens cadastrados.
+- [X] "/cadastro_jovem" Cria novo cadastro e retorna mensagem amigável.
+- [X] "/encontrar_jovem" Retorna o jovem com o nome espécifico.
+- [X] "/deletar_jovem/[ID]" Deleta o jovem por id específico e retorna mensagem amigável.
+- [X] "/atualizar/nome/[ID]" Atualiza os dados do jovem por id específico e retorna mensagem amigável.
 
 
 ### Instruções para utilização da API ###
 
 ### Estrutura MVC ###
-<p align="left"><img src="img/pastas.jpg" width="60" height="40%" /></p>
+<p align="left"><img src="img/pastas.jpg" width="70" height="60%" /></p>
