@@ -5,13 +5,14 @@
 
 
  Estrutura MVC:
-📁 api_projeto_final
+ 
+  📁 api_projeto_final
    |
    |-  📁 src
    |    |  
    |    |- 📁 config
    |    |    |- 📄 database.js
-   |    |- 📁 controllers
+   |    |- 📁 controller
    |    |    |- 📄 apoiadoresController.js
    |    |    |- 📄 instituicoesController.js
    |    |    |- 📄 jovensController.js
@@ -19,11 +20,11 @@
    |    |    |- 📄 apoiadoresSchema.js
    |    |    |- 📄 instituicaoSchema.js
    |    |    |- 📄 jovensSchema.js
-   |    |    |- 📄 repository.js
    |    |- 📁 routes
-   |    |    |- 📄 apoiadoresRoutes.js
+      |    |    |- 📄 apoiadoresRoutes.js
    |    |    |- 📄 instituicaoRoutes.js
    |    |    |- 📄 jovensRoutes.js
    |    |- 📄 app.js
    |- 📄 package.json 
    |- 📄 server.js
+
