@@ -5,4 +5,4 @@ Entre os jovens que estão no sistema de adoção, quanto mais velhos ficam meno
 
 
 Estrutura MVC:
-<p align="left"><img src="img/adoteFuturos.jpg"/></p>
+<p align="left"><img src="img/pastas.jpg"/></p>
