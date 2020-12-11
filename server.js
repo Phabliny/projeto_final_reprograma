@@ -1,9 +1,9 @@
-const dotenv = require('dotenv')
-const mongoose = require("mongoose")
 const express = require("express")
 const bodyParser = require("body-parser")
-
+const mongoose = require("mongoose")
+const dotenv = require("dotenv")
 const app = express()
+
 dotenv.config()
 
 const PORT = process.env.PORT || 5555
@@ -23,8 +23,7 @@ mongoose.connect(process.env.MONGO_URI, {
 
 app.use(express.json())
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: true }))
-
+app.use(bodyParser.urlencoded({ extended: true }))  
 app.use("/", jovens)
 app.use("/", apoiadores)
 app.use("/", instituicao)
