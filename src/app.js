@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const db = require("./configs/database") 
+const db = require("./config/database") 
 const bodyParser = require('body-parser')
 
 db.connect()

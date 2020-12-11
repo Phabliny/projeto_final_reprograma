@@ -40,22 +40,6 @@ const getJovemByName = (req, res) => {
     })
 }
 
-// getJovensByInstitution (modificar para mostrar todos os jovens da mesma instituição)
-const getJovensByInstitution = (req,res) => {
-    const instituicaoQuery = req.query
-    jovensCollection.findOne(instituicaoQuery , (error, jovens) => {
-        if(error){
-            return res.status(500).send(error)
-        } else {
-            if(jovens){
-                return res.status(200).send(jovens)
-            } else{
-                return res.status(404).send("Instituição não encontrada! :( ")
-            }
-        }
-    }) 
- }
-
 //deleteJovem
 const deleteJovem = (req, res) => {
     const idParam = req.params.id
@@ -98,7 +82,6 @@ module.exports = {
     getJovens,
     addJovem, 
     getJovemByName,
-    getJovensByInstitution,
     deleteJovem,
     updatePatchJovem
 }
