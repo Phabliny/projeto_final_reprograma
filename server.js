@@ -11,4 +11,4 @@ app.listen(PORT, (err) => {
   }
   console.log(`O app esta rodando em http://localhost: ${PORT}`);
 
-}); 
+})
