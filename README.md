@@ -48,7 +48,7 @@ Durante todo o bootcamp da Reprograma fizemos diversas aulas e práticas que nos
 
 
 ### Instruções para utilização da API ###
-Foi realizado o deploy dessa API no Heroku, sendo possível acessar pelo [link](https://adote-futuros.herokuapp.com)
+Foi realizado o deploy dessa API no Heroku, sendo possível acessar através do [link](https://adote-futuros.herokuapp.com).
 
 ### Estrutura MVC ###
 <p align="left"><img src="img/pastas.jpg"/></p>
