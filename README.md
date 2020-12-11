@@ -35,7 +35,7 @@ Durante todo o bootcamp da Reprograma fizemos diversas aulas e práticas que nos
 ### Rotas das Instituições ###
 - [X] "/instituicoes" Retorna todas as instituições cadastradas.
 - [X] "/cadastro_instituicao" Cria novo cadastro e retorna mensagem amigável.
--[X] "/encontrar_instituicao" Retorna a instituição com o nome espécifico.
+- [X] "/encontrar_instituicao" Retorna a instituição com o nome espécifico.
 - [X] "/deletar_instituicao/[ID]" Deleta a instituição por id específico e retorna mensagem amigável.
 - [X] "/atualizar_instituicao/[ID]" Atualiza os dados da instituição por id específico e retorna mensagem amigável.
 
@@ -48,6 +48,7 @@ Durante todo o bootcamp da Reprograma fizemos diversas aulas e práticas que nos
 
 
 ### Instruções para utilização da API ###
+Foi realizado o deploy dessa API no Heroku, sendo possível acessar pelo [link]: https://adote-futuros.herokuapp.com
 
 ### Estrutura MVC ###
-<p align="left"><img src="img/pastas.jpg" width="70" height="60%" /></p>
+<p align="left"><img src="img/pastas.jpg"/></p>
