@@ -52,3 +52,7 @@ Foi realizado o deploy dessa API no Heroku, sendo possível acessar através do 
 
 ### Estrutura MVC ###
 <p align="left"><img src="img/pastas.jpg"/></p>
+*Esquema com as pastas e arquivos que são importantes para o funcionamento dessa API.*
+
+### Agradecimentos ###
+Fazer esse bootcamp da Reprograma foi uma experiência única e maravilhosa, por isso quero agradeçer a todas que direta ou indiretamente fizeram parte dessa minha trajetória.:heart:
