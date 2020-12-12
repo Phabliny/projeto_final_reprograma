@@ -55,4 +55,4 @@ Foi realizado o deploy dessa API no Heroku, sendo possível acessar através do 
 *Esquema com as pastas e arquivos que são importantes para o funcionamento dessa API.*
 
 ### Agradecimentos ###
-Fazer esse bootcamp da Reprograma foi uma experiência única e maravilhosa, por isso quero agradeçer a todas que direta ou indiretamente fizeram parte dessa minha trajetória.:heart:
+Fazer esse bootcamp da Reprograma foi uma experiência única e maravilhosa, por isso quero agradecer a todas que direta ou indiretamente fizeram parte dessa minha trajetória.:heart:
