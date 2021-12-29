@@ -27,7 +27,7 @@ Durante todo o bootcamp da Reprograma fizemos diversas aulas e práticas que nos
 
 ### Rotas dos Apoiadores ###
 - [X] "/apoiadores" Retorna todos os apoiadores cadastrados.
-- [X] "cadastro_apoiador" Cria novo cadastro e retorna mensagem amigável.
+- [X] "/cadastro_apoiador" Cria novo cadastro e retorna mensagem amigável.
 - [X] "/encontrar_apoiador" Retorna o apoiador com o nome espécifico.
 - [X] "/deletar_apoiador/[ID]" Deleta o apoiador por id específico e retorna mensagem amigável.
 - [X] "/atualizar_apoiador/[ID]" Atualiza os dados do apoiador por id específico e retorna mensagem amigável.
